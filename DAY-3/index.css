@@ -24,18 +24,22 @@ hr {
 }
 .logo_container {
   display: flex;
-  margin-left: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #fff;
 }
 .menu_row {
   display: flex;
   align-items: center;
-  width: 35%;
+  width: 20%;
   justify-content: space-between;
   margin-right: 16px
 }
+.icon_name_container {
+  color: white;
+}
 .icon_container {
   display: flex;
-  margin-right: 10px;
 }
 .two_menu_container {
   display: flex;
@@ -44,10 +48,11 @@ hr {
 }
 .item_menu_container {
   display: flex;
-  margin-left: 80px;
+  margin: 0 80px;
+  align-items: center;
 }
 .item_menu {
-  padding-left: 26px;
+padding: 8px;
 }
 .search_container {
   display: flex;
@@ -57,4 +62,16 @@ hr {
   margin-right: 80px;
   border-radius: 10%;
   color: rgb(73, 68, 68);
+}
+.three_menu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 700px 0 80px;
+}
+.item_container {
+  padding: 8px;
+}
+.item_link {
+  color: rgb(156, 11, 69);
 }
