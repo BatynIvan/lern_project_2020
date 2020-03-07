@@ -1,0 +1,95 @@
+body {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+}
+.menu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(63, 58, 58);
+  height: 50px;
+}
+.logo_container {
+  display: flex;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+.vindaq_name {
+  color: #fff;
+}
+.menu_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 16px
+}
+.icon_name_container {
+  color: white;
+  margin: 14px
+}
+.login_container {
+  color: #fff;
+  box-shadow: 0 1px 4px rgb(166, 166, 184);
+  margin: 16px;
+}
+.icon_container {
+  display: flex;
+  margin: 14px
+}
+.icon_container_login {
+  margin: 14px;
+  display: flex;
+}
+.singup_container {
+  position: relative;
+  margin: 5% auto;
+  height: 400px;
+  width: 600px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0.6);
+}
+
+.left_container {
+  position: absolute;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.left_container_column {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  font-size: 15px;
+}
+
+.left_container_submit {
+  width: 120px;
+  height: 32px;
+  background: rgb(80, 79, 79);
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.right_container {
+  width: 300px;
+  height: 400px;
+  background-image: url(./image/grapes.jpg)
+}
