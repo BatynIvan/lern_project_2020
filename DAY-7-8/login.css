@@ -25,8 +25,7 @@ a {
   color: #fff;
 }
 
-.menu_row {
-  display: flex;
+.menu_row_desktop {
   align-items: center;
   justify-content: space-between;
   margin-right: 16px
@@ -54,10 +53,10 @@ a {
 }
 
 .singup_container {
+  width: 80%;
+  height: 80vh;
   position: relative;
   margin: 5% auto;
-  height: 400px;
-  width: 600px;
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0.6);
 }
@@ -67,6 +66,12 @@ a {
   right: 0;
   box-sizing: border-box;
   padding: 40px;
+}
+
+.right_container {
+  width: 300px;
+  height: 400px;
+  background-image: url(./image/grapes.jpg)
 }
 
 h1 {
@@ -98,8 +103,53 @@ h1 {
   cursor: pointer;
 }
 
-.right_container {
-  width: 300px;
-  height: 400px;
-  background-image: url(./image/grapes.jpg)
+
+@media (min-width: 1200px) {
+  .menu_row_desktop {
+    display: flex;
+  }
+
+  .menu_row_mobile {
+    display: none;
+  }
 }
+
+@media (max-width: 1200px) {
+  .menu_row_desktop {
+    display: flex;
+  }
+
+  .menu_row_mobile {
+    display: none;
+  }
+
+  .right_container {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu_row_desktop {
+    display: none;
+  }
+
+  .menu_row_mobile {
+    display: flex;
+  }
+
+  .left_container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: inherit;
+  }
+
+  .singup_container {
+    height: inherit;
+  }
+}
+
+@media (min-width: 600px) {}

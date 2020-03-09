@@ -1,11 +1,9 @@
 body {
   margin: 10px;
 }
-
 a {
   text-decoration: none;
 }
-
 .menu_container {
   display: flex;
   justify-content: space-between;
@@ -13,46 +11,38 @@ a {
   background-color: rgb(63, 58, 58);
   height: 50px;
 }
-
 .logo_container {
   display: flex;
   margin-left: 20px;
   font-size: 30px;
   color: #fff;
 }
-
 .vindaq_name {
   color: #fff;
 }
-
 .menu_row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 16px
 }
-
 .icon_name_container {
   color: white;
   margin: 14px
 }
-
 .login_container {
   color: #fff;
   box-shadow: 0 1px 4px rgb(166, 166, 184);
   margin: 16px;
 }
-
 .icon_container {
   display: flex;
   margin: 14px
 }
-
 .icon_container_login {
   margin: 14px;
   display: flex;
 }
-
 .singup_container {
   position: relative;
   margin: 5% auto;
@@ -97,9 +87,8 @@ h1 {
   transition: 0.2s ease;
   cursor: pointer;
 }
-
 .right_container {
   width: 300px;
   height: 400px;
-  background-image: url(./image/grapes.jpg)
+  background-image: url(./image/wine123.jpg)
 }
