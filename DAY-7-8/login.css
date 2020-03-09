@@ -1,0 +1,159 @@
+body {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(63, 58, 58);
+  height: 50px;
+}
+
+.logo_container {
+  display: flex;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.vindaq_name {
+  color: #fff;
+}
+
+.menu_row_desktop {
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 16px
+}
+
+.icon_name_container {
+  color: white;
+  margin: 14px
+}
+
+.login_container {
+  color: #fff;
+  box-shadow: 0 1px 4px rgb(166, 166, 184);
+  margin: 16px;
+}
+
+.icon_container {
+  display: flex;
+  margin: 14px
+}
+
+.icon_container_login {
+  margin: 14px;
+  display: flex;
+}
+
+.singup_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  margin: 5% auto;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0.6);
+}
+
+.right_container {
+  padding: inherit;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_container {
+  width: 45%;
+  
+}
+
+.image_singup {
+  width: 100%;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.left_container_column {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+  padding: 4%;
+  width: 80%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  font-size: 15px;
+}
+
+.left_container_submit {
+  width: 40%;
+  height: 50px;
+  background: rgb(80, 79, 79);
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+
+@media (min-width: 1200px) {
+  .menu_row_desktop {
+    display: flex;
+  }
+
+  .menu_row_mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu_row_desktop {
+    display: flex;
+  }
+
+  .menu_row_mobile {
+    display: none;
+  }
+
+  .left_container {
+    display: none;
+  }
+
+  .singup_container {
+    justify-content: center;
+}
+}
+
+@media (max-width: 600px) {
+  .menu_row_desktop {
+    display: none;
+  }
+
+  .menu_row_mobile {
+    display: flex;
+  }
+
+  .right_container {
+    width: 100%;
+  }
+
+  .singup_container {
+    height: inherit;
+  }
+}
+
+@media (min-width: 600px) {}
